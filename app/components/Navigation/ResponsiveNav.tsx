@@ -1,7 +1,8 @@
 'use client';
-import React, { useState } from 'react';
-import Nav from './Nav';
+import { useState } from 'react';
+
 import MobileNav from './MobileNav';
+import Nav from './Nav';
 
 const ResponsiveNav = () => {
   const [isOpenMenu, setIsOpenMenu] = useState(false);

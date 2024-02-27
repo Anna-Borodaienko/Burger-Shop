@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import React from 'react';
 import { BiCycling, BiShoppingBag } from 'react-icons/bi';
 import { FaBurger } from 'react-icons/fa6';
 import { HiBars3BottomRight } from 'react-icons/hi2';

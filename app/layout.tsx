@@ -1,6 +1,8 @@
+import './globals.css';
+
 import type { Metadata } from 'next';
 import { Barlow_Condensed } from 'next/font/google';
-import './globals.css';
+
 import ResponsiveNav from './components/Navigation/ResponsiveNav';
 
 const barlow = Barlow_Condensed({

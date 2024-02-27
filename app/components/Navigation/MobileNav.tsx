@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import React from 'react';
 import { ImCross } from 'react-icons/im';
 
 interface MobileNavProps {
