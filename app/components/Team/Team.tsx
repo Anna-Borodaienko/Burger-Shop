@@ -10,21 +10,35 @@ const Team = () => {
         className='mt-[5rem] w-[80%] mx-auto 
         grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 
         gap-[3rem] items-center'>
-        <TeamCard
-          image='/images/t1.jpg'
-          name='John Doe'
-          position='Kitchen Porter'
-        />
-        <TeamCard
-          image='/images/t2.jpg'
-          name='Kohn Doe'
-          position='Executive chef'
-        />
-        <TeamCard
-          image='/images/t3.jpg'
-          name='Hohn Doe'
-          position='Head Chef'
-        />
+        <div
+          data-aos='fade-right'
+          data-aos-anchor-placement='top-center'>
+          <TeamCard
+            image='/images/t1.jpg'
+            name='John Doe'
+            position='Kitchen Porter'
+          />
+        </div>
+        <div
+          data-aos='zoom-in'
+          data-aos-anchor-placement='top-center'
+          data-aos-delay='300'>
+          <TeamCard
+            image='/images/t2.jpg'
+            name='Kohn Doe'
+            position='Executive chef'
+          />
+        </div>
+        <div
+          data-aos='fade-right'
+          data-aos-anchor-placement='top-center'
+          data-aos-delay='600'>
+          <TeamCard
+            image='/images/t3.jpg'
+            name='Hohn Doe'
+            position='Head Chef'
+          />
+        </div>
       </div>
     </div>
   );
