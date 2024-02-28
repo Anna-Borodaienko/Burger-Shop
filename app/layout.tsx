@@ -3,6 +3,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Barlow_Condensed } from 'next/font/google';
 
+import Footer from './components/Footer/Footer';
 import ResponsiveNav from './components/Navigation/ResponsiveNav';
 
 const barlow = Barlow_Condensed({
@@ -26,6 +27,7 @@ export default function RootLayout({
       <body className={barlow.className}>
         <ResponsiveNav />
         {children}
+        <Footer />
       </body>
     </html>
   );
